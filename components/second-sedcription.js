@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const secondsedcription = () => {
   return (
-    <section className="bg-white dark:bg-gray-900">
+    <section id='#PROJECTS' className="bg-white dark:bg-gray-900">
       <div className="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
         <div className="col-span-2 mb-8">
           <p  data-aos="fade-up"
@@ -11,7 +11,7 @@ const secondsedcription = () => {
               data-aos-duration="800"
               data-aos-easing="ease-in-out"
               data-aos-once="false" className="text-lg font-medium text-purple-600 dark:text-purple-500">
-            Trusted Worldwide
+            My projects
           </p>
           <h2  data-aos="fade-up"
               data-aos-offset="200"
@@ -19,55 +19,14 @@ const secondsedcription = () => {
               data-aos-duration="800"
               data-aos-easing="ease-in-out"
               data-aos-once="false" className="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">
-            Trusted by over 600 million users and 10,000 teams
+            Here are some of the projects I have worked in while in Steam Academy
           </h2>
           <p data-aos="fade-right" className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
-            Our rigorous security and compliance standards are at the heart of
-            all we do. We work tirelessly to protect you and your customers.
+            While I was studying in learing to code in Frontend I was also using the new skills I acquired by making projects with my new knowledge.
           </p>
           <div className="pt-6 mt-6 space-y-4 border-t border-gray-200 dark:border-gray-700">
-            <div>
-              <Link
-              data-aos="fade-right"
-                href="#"
-                className="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700"
-              >
-                Explore Legality Guide
-                <svg
-                  className="w-5 h-5 ml-1"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </Link>
-            </div>
-            <div>
-              <Link
-              data-aos="fade-right"
-                href="#"
-                className="inline-flex items-center text-base font-medium text-purple-600 hover:text-purple-800 dark:text-purple-500 dark:hover:text-purple-700"
-              >
-                Visit the Trust Center
-                <svg
-                  className="w-5 h-5 ml-1"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </Link>
-            </div>
+            
+            
           </div>
         </div>
         <div className="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
@@ -86,10 +45,10 @@ const secondsedcription = () => {
               ></path>
             </svg>
             <h3 className="mb-2 text-2xl font-bold dark:text-white">
-              99.99% uptime
+              Rick and Morty API
             </h3>
             <p className="font-light text-gray-500 dark:text-gray-400">
-              For Landwind, with zero maintenance downtime
+              A page that shows information about characters of the TV series Rick and Morty, using and API
             </p>
           </div>
           <div data-aos="fade-left">
@@ -101,9 +60,9 @@ const secondsedcription = () => {
             >
               <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z"></path>
             </svg>
-            <h3 className="mb-2 text-2xl font-bold dark:text-white">600M+ Users</h3>
+            <h3 className="mb-2 text-2xl font-bold dark:text-white">Carousel</h3>
             <p className="font-light text-gray-500 dark:text-gray-400">
-              Trusted by over 600 milion users around the world
+              A page that show different immages, you can interact with them and choose which immage to focus in
             </p>
           </div>
           <div data-aos="fade-right">
@@ -120,10 +79,10 @@ const secondsedcription = () => {
               ></path>
             </svg>
             <h3 className="mb-2 text-2xl font-bold dark:text-white">
-              100+ countries
+              Weather forecast
             </h3>
             <p className="font-light text-gray-500 dark:text-gray-400">
-              Have used Landwind to create functional websites
+              A simple, not reactive page that shows information about the weather on a city.
             </p>
           </div>
           <div data-aos="fade-left">
@@ -135,9 +94,9 @@ const secondsedcription = () => {
             >
               <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
             </svg>
-            <h3 className="mb-2 text-2xl font-bold dark:text-white">5+ Million</h3>
+            <h3 className="mb-2 text-2xl font-bold dark:text-white">Portfolio</h3>
             <p className="font-light text-gray-500 dark:text-gray-400">
-              Transactions per day
+              A portfolio made using only HTML and CSS, it is really simple, but it is also the first project I made related to Frontend,
             </p>
           </div>
         </div>
